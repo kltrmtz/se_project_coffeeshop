@@ -27,6 +27,8 @@
 
 .recipes__iframe {
   border: none;
+  width: 480px;
+  height: 273px;
 }
 
 .recipes__videos {
@@ -34,8 +36,6 @@
   justify-content: center;
   gap: 40px;
   margin: 80px auto 0;
-  width: 480px;
-  height: 273px;
   padding: 0;
 }
 
