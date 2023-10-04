@@ -17,7 +17,7 @@
   display: block;
 }
 
-.form__label_checkbox {
+.form__label-checkbox {
   display: flex;
   justify-content: center;
   font-family: "Inter", Arial, sans-serif;
@@ -25,6 +25,7 @@
   font-size: 16px;
   line-height: 20px;
   gap: 12px;
+  margin-bottom: 0;
 }
 
 .form__input {
@@ -37,13 +38,17 @@
   height: 60px;
   padding: 0 20px;
   font-family: "Inter", Arial, sans-serif;
-  color: #838383;
   font-size: 20px;
   line-height: 30px;
   border-color: #838383;
+  border-width: 1px;
 }
 
-.form__input_checkbox {
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__input-checkbox {
   width: 20px;
   height: 20px;
   border-radius: 2px;
