@@ -17,7 +17,7 @@
   display: block;
 }
 
-.form__label-checkbox {
+.form__label_checkbox {
   display: flex;
   justify-content: center;
   font-family: "Inter", Arial, sans-serif;
@@ -48,7 +48,7 @@
   color: #838383;
 }
 
-.form__input-checkbox {
+.form__checkbox {
   width: 20px;
   height: 20px;
   border-radius: 2px;
