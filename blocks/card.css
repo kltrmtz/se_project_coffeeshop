@@ -1,6 +1,5 @@
 .card {
   box-sizing: border-box;
-  gap: 16px;
   list-style-type: none;
   width: 540px;
 }
@@ -24,7 +23,7 @@
 }
 
 .card__list-item {
-  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-family: "Noto Serif", "Times New Roman";
   font-size: 16px;
   line-height: 20px;
   display: flex;

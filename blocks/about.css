@@ -17,22 +17,24 @@
   line-height: 52px;
   max-width: 251px;
   width: 100%;
-  margin: 100px 0 0 80px;
+  margin-top: 100px;
   position: relative;
   z-index: 2;
 }
 
 .about__content {
-  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-family: "Noto Serif", "Times New Roman";
   color: #fff;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
   width: 100%;
-  margin: 119px 80px 173px auto;
-  gap: 20px;
-  flex-direction: column;
+  margin: 119px 80px auto;
   position: relative;
+}
+
+.about__paragraph {
+  margin-bottom: 0;
 }
 
 @keyframes pulsate {
