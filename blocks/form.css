@@ -17,7 +17,7 @@
   display: block;
 }
 
-.form__label_checkbox {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   font-family: "Inter", Arial, sans-serif;

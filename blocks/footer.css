@@ -47,16 +47,16 @@
   margin-bottom: 0;
 }
 
-.footer__list-item:hover {
-  color: #c1c1c1;
-}
-
 .footer__social-link {
   color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
   margin-left: 100px;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
